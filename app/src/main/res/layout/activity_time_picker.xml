@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timepicker">
+
+
+
+    <EditText
+        android:id="@+id/description"
+        android:gravity="center"
+        android:layout_marginTop="500dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Description"
+        android:inputType="text"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <Button
+        android:id="@+id/setTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setTask"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="550dp"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="533dp"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>

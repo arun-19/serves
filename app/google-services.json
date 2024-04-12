@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678086997011",
+    "project_id": "serves-6870c",
+    "storage_bucket": "serves-6870c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678086997011:android:8f0093ef21cc7aefd1fbe6",
+        "android_client_info": {
+          "package_name": "com.example.seves"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8UOr7i-5WpmjiyzWbDu-5FP1SaU2aRws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

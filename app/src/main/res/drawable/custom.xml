@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:inset="1dp"   xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shape  android:opticalInsetRight="2dp" android:shape="rectangle">
+        <corners android:topLeftRadius="10dp" android:radius="10dp"/>
+        <stroke android:color="#65F4F3F3" android:width="2dp" />
+<gradient android:type="linear" android:startColor="#E87E8DDF" android:centerColor="#E17688ED" android:endColor="#D374ADF4">
+
+
+       <stroke android:dashGap="1dp" android:color="@color/design_default_color_secondary_variant"/>
+
+       <solid   android:color="#F03F51B5"  />
+</gradient>
+   </shape>
+
+</inset>

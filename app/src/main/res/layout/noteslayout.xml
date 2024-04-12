@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="20dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contain"
+            android:scrollbars="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+android:padding="8dp"
+                android:background="#03A9F4"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/all"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="40dp"
+                    tools:layout_editor_absoluteY="84dp" />
+            </LinearLayout>
+            <ScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="4px"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/all"
+                    android:padding="20px"
+                    android:text="Name"
+
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="65dp"
+                    tools:layout_editor_absoluteY="123dp" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/all"
+                    android:text="TextView"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="65dp"
+                    tools:layout_editor_absoluteY="123dp" />
+
+            </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="4px"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/all"
+                    android:padding="20px"
+                    android:text="purpose"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="65dp"
+                    tools:layout_editor_absoluteY="123dp" />
+
+                <TextView
+                    android:id="@+id/purpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/all"
+                    android:scrollbars="horizontal"
+                    android:text="TextView"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="65dp"
+                    tools:layout_editor_absoluteY="123dp" />
+
+            </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:padding="4px"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/all"
+                    android:padding="20px"
+                    android:text="Number"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="144dp"
+                    tools:layout_editor_absoluteY="19dp" />
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/all"
+                    android:text="TextView"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="144dp"
+                    tools:layout_editor_absoluteY="19dp" />
+
+            </LinearLayout>
+            </ScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10px"
+                android:layout_marginTop="2px"
+                android:minWidth="80dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/delete"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+
+                    android:background="@drawable/baseline_delete_24"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/edit"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/edit"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/baseline_edit_24"
+
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:rotation="4"
+                    android:rotationX="-4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/delete"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

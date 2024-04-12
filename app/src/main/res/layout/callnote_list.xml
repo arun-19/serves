@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:padding="0dp"
+    android:background="@drawable/card"
+    android:layout_height="100dp">
+
+
+    <TextView
+        android:id="@+id/notestitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/all"
+        android:gravity="center_vertical"
+        android:text="title"
+        android:textColor="#E9F0F0F6"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/notespurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/all"
+        android:gravity="center_vertical"
+        android:text="purpose"
+        android:textColor="#E9F1F1F3"
+        android:textSize="14dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notestitle"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/notestimetxt"
+        android:layout_width="56dp"
+        android:layout_height="27dp"
+        android:textColor="#EFEEF3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+
+        app:layout_constraintStart_toEndOf="@+id/notespurpose"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
